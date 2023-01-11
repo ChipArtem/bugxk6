@@ -17,6 +17,6 @@ type K6ibmmq struct {
 	mqjms.ConnectionFactoryImpl
 }
 
-func (k K6ibmmq) Hello(){
+func (k K6ibmmq) Hello() {
 	fmt.Println(k.PortNumber)
 }
